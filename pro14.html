@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" width="50%"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li ><a class="active"href="shop.html">Shop</a></li>
+                <li ><a href="blog.html">Blog</a></li>
+                <li ><a href="about.html">About</a></li>
+                <li ><a href="contact.html">Contact</a></li>
+                <li ><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="prodetail" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/S4.jpg" width="100%" id="MainImg" >
+        </div>
+        <div class="single-pro-details">
+            <h6>Home / Sport</h6>
+            <h4>VIVA แฟ้มวางแผนฟุตบอลแม่เหล็ก แบบ 18 โซน</h4>
+            <h2>฿590</h2>
+           
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Detail</h4>
+            <span>แฟ้มวางแผนฟุตบอลแม่เหล็กขนาด 9x16นิ้ว
+                แบ่งโซนสนามให้ครบพร้อมติดแม่เหล็ก 18 โซน พร้อมจุดสำคัญ “Golden Zone” โซน 14
+                ให้พร้อมวางแผนกลยุทธ์ แมทช์ การแข่งขันของทีม ได้อย่างครบถ้วน ลงตัว
+                ในเซทแฟ้มวางแผนประกอบด้วย
+                มาพร้อมกระดาษวางแผนกลยุทธ์ 20 แผ่น
+                ชุดแม่เหล็กสีแดง 11 ตัว
+                ชุดแม่เหล็กสีเหลือง 11 ตัว
+                ชุดแม่เหล็กสีดำ 2 ตัว
+                สกรีนสนามฟุตบอลแบบไม่แบ่งโซนด้านหลังแฟ้ม1สนาม(ติดแม่เหล็กไม่ได้)</span>
+        </div>
+    </section>
+   
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" width="60px">
+            <h4>Contact</h4>
+            <p><strong>Adress: </strong> 46 Neonhom Meang Prachinburi</p>
+            <p><strong>Phone: </strong>+66 922610061</p>
+            <p><strong>Hour: </strong>11:00 - 17:00, Mon - Fri</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sing in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whitelist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+      
+    </footer>
+    <script>
+        var MainImg=document.getElementById("MainImg");
+        var smallimg=document.getElementsByClassName("small-img");
+
+            smallimg[0].onclick = function(){
+                MainImg.src = smallimg[0].src
+            }
+            smallimg[1].onclick = function(){
+                MainImg.src = smallimg[1].src
+            }
+            smallimg[2].onclick = function(){
+                MainImg.src = smallimg[2].src
+            }
+            smallimg[3].onclick = function(){
+                MainImg.src = smallimg[3].src
+            }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
